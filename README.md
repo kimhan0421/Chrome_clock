@@ -1,4 +1,4 @@
-Chrome_clock
+Chrome_clock ) Vanilla JS
 =========
 ## HTML & CSS
 + [index.html](https://github.com/kimhan0421/Chrome_clock/blob/master/index.html)
