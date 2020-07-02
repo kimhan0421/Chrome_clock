@@ -86,7 +86,7 @@ form을 제출하는 event가 발생하면, event는 document까지 올라가는
 => 이런 기본 값을 막고 싶어요! \
 ==> preventDefault를 작성해요
 
-기본값 막는 1단계! \
+기본값 막는 1단계! 
 > preventDefault를 작성하기 전에는 Enter를 누르면 새로고침했지만, 작성후에는 Enter를 눌러도 그대로.
 
 => 현재 value가 필요해요 \
@@ -190,17 +190,17 @@ const li = btn.parentNode; => 지워야 할 버튼
 
 => 새로고침 하면 삭제한 것이 삭제되지 않음.
 
-function filtter() => forEach에서 function을 실행하는 것과 같은 방식. 각각의 item과 같이 실행될 것임.
-function filtter(toDo) => true인 것들인 toDos만 return. id값이 1인 경우
+function filtter() => forEach에서 function을 실행하는 것과 같은 방식. 각각의 item과 같이 실행될 것임. \
+function filtter(toDo) => true인 것들인 toDos만 return. id값이 1인 경우 \
 filters = array의 모든 아이템을 통해 함수를 실행, ture인 아이템들만 가지고 새로운 array를 만듦
 
-cleanToDos => filterFn이 체크가 안된 아이템들의 array를 줌
-=> 그런데, li에 없는 id인 toDos를 체크하고 싶어요.
+cleanToDos => filterFn이 체크가 안된 아이템들의 array를 줌 \
+=> 그런데, li에 없는 id인 toDos를 체크하고 싶어요. \
 ==> toDos.filter(function(toDo))로 함수를 만들어요.
 
 li.id => string 이니, parseInt로 숫자로 바꿔야 함.
 
-toDos는 이전 것, cleanToDos는 새로운 것
+toDos는 이전 것, cleanToDos는 새로운 것 \
 => toDos는 const로 했었는데, 바꿀 수 없으니 let toDos로 바꿔야 함
 
 fifter, forEach => list에 있는 모든 item을 위한 함수를 실행하는 것
