@@ -6,7 +6,7 @@ Chrome_clock
   <strong>Vanilla JS</strong><br>
 </p>
 
-## 👏 [Clock Page]   
+## 👏 [Clock Page](https://kimhan0421.github.io/Chrome_clock/)
 ## 📖 Documentation
 [Theory](https://github.com/kimhan0421/Chrome_clock/blob/master/Theory.md)
 
