@@ -5,7 +5,6 @@ body {
 
 .js-clock{
   position: absolute;
-<<<<<<< HEAD
   top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -15,28 +14,12 @@ body {
   position: absolute;
   top: 40%;
   left: 50%;
-=======
-  top: 40%;
-  left: 40%;
-  transform: translate(-50%, -50%);
-  font-size:3em;
-}
-.js-form{
-  position: absolute;
-  top: 50%;
-  left: 40%;
->>>>>>> e4d54ba3ed853d16764383545fa03b40248c759d
   transform: translate(-50%, -50%);
 }
 .js-greetings{
   position: absolute;
-<<<<<<< HEAD
   top: 40%;
   left: 50%;
-=======
-  top: 50%;
-  left: 40%;
->>>>>>> e4d54ba3ed853d16764383545fa03b40248c759d
   transform: translate(-50%, -50%);
   font-size:3em;
   color: #577399;
@@ -48,25 +31,15 @@ body {
 }
 .js-toDoForm{
   position: absolute;
-<<<<<<< HEAD
   top: 60%;
   left: 50%;
-=======
-  top: 75%;
-  left: 40%;
->>>>>>> e4d54ba3ed853d16764383545fa03b40248c759d
   transform: translate(-50%, -50%);
   text-decoration: underline;
 }
 .js-toDoList{
   position: absolute;
-<<<<<<< HEAD
   top: 75%;
   left: 50%;
-=======
-  top: 60%;
-  left: 60%;
->>>>>>> e4d54ba3ed853d16764383545fa03b40248c759d
   transform: translate(-50%, -50%);
   color : #372549;
   font-size:1.5em;
